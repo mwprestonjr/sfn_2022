@@ -253,3 +253,25 @@ def comp_spike_cov(spikes):
     
     return cov
 
+
+def get_spike_times(spikes, time):
+    """
+    convert spike train to spike times 
+
+    Parameters
+    ----------
+    spikes : 1D array, int
+        Spike train.
+    time : 1D array, float
+        Time-vector.
+
+    Returns
+    -------
+    spike_times : 1D array, float
+        spike times.
+
+    """
+    
+    spike_times = time[np.where(spikes)]
+    
+    return spike_times
