@@ -19,7 +19,7 @@ figure.facecolor: w
 axes.facecolor: w
 
 # Figure output
-savefig.dpi:		300	
+savefig.dpi:		600	
 savefig.format: tif
 # savefig.bbox:	tight
 savefig.pad_inches:	0.2
